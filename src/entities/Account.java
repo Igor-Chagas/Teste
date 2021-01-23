@@ -16,10 +16,7 @@ public class Account {
 		this.holder = holder;
 		deposit(initialDeposit);
 	}
-
 	
-
-
 	public void deposit(double amount) {
 		balance += amount;
 	}
